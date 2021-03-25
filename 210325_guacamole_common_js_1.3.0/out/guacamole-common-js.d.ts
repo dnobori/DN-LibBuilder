@@ -35,7 +35,7 @@ declare namespace Guacamole {
          * Sends the given data.
          * @param data - The data to send.
          */
-        sendData(data: ArrayBuffer | TypedArray): void;
+        sendData(data: ArrayBuffer | ArrayBuffer): void;
         /**
          * Signals that no further text will be sent, effectively closing the
         stream.

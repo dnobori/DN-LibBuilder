@@ -10,3 +10,5 @@ npx jsdoc -p -c jsdoc_config.json -r ./node_modules/guacamole-common-js/
 
 rename out\types.d.ts guacamole-common-js.d.ts
 
+perl -i.bak -p -e "s/TypedArray/ArrayBuffer/g" out\guacamole-common-js.d.ts
+
